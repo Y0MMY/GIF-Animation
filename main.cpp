@@ -25,8 +25,8 @@ void LoadRes(HWND hWnd) {
     gif = new GIF(bitmap, (HDC)GetDC(hWnd), hWnd);
     gif->position.x = 150;
     gif->position.y = 150;
-    gif->position.width = 100;
-    gif->position.height = 100;
+    gif->position.width = bitmap->GetWidth();
+    gif->position.height = bitmap->GetHeight();
     delete bitmap;
 }
 int WinMain(HINSTANCE hInstance,
