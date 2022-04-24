@@ -13,10 +13,6 @@
 - cmake --build .
 - .\main.exe
 
-**Linux:**
-- cd build/
-- make .
-- .\main.exe
 
 <h2 align="center">Using</h2>
 
