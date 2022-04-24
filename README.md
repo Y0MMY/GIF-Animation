@@ -4,7 +4,7 @@
 **Stack:**
 - C++
 - GDI+
-- Cmake
+- CMake
 
 <h2 align="center">Build</h2>
 
