@@ -36,3 +36,10 @@ void LoadRes(HWND hWnd) {
     delete bitmap;
 }
 ```
+
+```
+SetTimer(hWnd,            
+    	TIMER1,            
+    	40, // FPS
+    	NULL);     
+```
